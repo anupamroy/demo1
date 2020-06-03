@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-md-12">
+        <div class="form-group">
+           <input type="text" class="form-control" [(ngModel)]="work" placeholder="What to do ?">
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" [(ngModel)]="description" placeholder="Description"></textarea>
+        </div>
+        <div class="form-group">
+            <input type="text" class="form-control" [(ngModel)]="AllocatedTime" placeholder="What is the time?">
+         </div>
+         <div class="form-group">
+            <button class="btn btn-primary" (click)="addTodo()">Save Todo</button>
+         </div>
+    </div>
+</div>
